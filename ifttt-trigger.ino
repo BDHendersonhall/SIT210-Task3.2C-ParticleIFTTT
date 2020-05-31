@@ -8,7 +8,7 @@ int photodiode = A0; // the pin the Photodiode is connected to
 int analogvalue; //variable to hold the Photodiode readings
 char analogvalueStr[30];
 
-int SunlightOn = 50; // threshold value for when Sunlight is considered on the Terrarium, note for a photodiode the reading increases as light increases
+int SunlightOn = 100; // threshold value for when Sunlight is considered on the Terrarium, note for a photodiode the reading increases as light increases
 
 void setup() 
 {
